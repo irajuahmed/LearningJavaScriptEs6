@@ -49,8 +49,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             colors.delete('Violet');   
             console.log(colors);
         </pre>
-        <pre>
-        Result: 
+        <pre lang="Javascript"> Result in console
         Set(3) {'Violet', 'Indigo', 'Blue'}
         Set(2) {'Indigo', 'Blue'}
         </pre>        
@@ -61,8 +60,20 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
     <td>Returns true if a value exists</td>
     <td>
         <pre lang="Javascript">
-
+                let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
+                colors.add('Violet');  
+                colors.add('Indigo');  
+                colors.add('Blue');  
+                colors.add('Violet');  
+                console.log(colors.has('Indigo'));  
+                console.log(colors.has('Violet'));  
+                console.log(colors.has('Cyan')); 
         </pre>
+        <pre lang="Javascript"> Result in console:
+        true
+        true
+        false
+        </pre>  
     </td>
 </tr>
 <tr>
