@@ -89,8 +89,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             colors.clear();
             console.log(colors.size);
         </pre>
-        <pre lang="Javascript"> Result in console:
-        
+        <pre lang="Javascript"> Result in console:        
         0
         </pre> 
     </td>
@@ -100,8 +99,19 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
       <td>Invokes a callback for each element</td>
       <td>
         <pre lang="Javascript">
-
+            const letters = new Set("Raju");
+            let text = "";
+            letters.forEach (function(value) {
+              text += value + "<br>";
+            })
+            console.log(text);
         </pre>
+        <pre lang="Javascript"> Result in console:        
+        R
+        a
+        j
+        u
+        </pre> 
      </td>
 </tr>
   <tr>
