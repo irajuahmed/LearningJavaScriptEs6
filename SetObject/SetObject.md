@@ -139,7 +139,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
       <td>Same as values()</td>
       <td>
         <pre lang="Javascript">
-
+        A Set has no keys. keys() method returns the same as values().
         </pre>
     </td>
 </tr>
