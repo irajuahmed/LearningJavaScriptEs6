@@ -137,10 +137,16 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
   <tr>
       <td>keys()</td>
       <td>Same as values()</td>
-      <td>
+      <td> A Set has no keys. keys() method returns the same as values().
         <pre lang="Javascript">
-        A Set has no keys. keys() method returns the same as values().
+            let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
+            var itr = colors.keys();  
+            console.log(itr.next().value);   
         </pre>
+          <pre lang="Javascript"> Output in console:
+          {value: 'Green', done: false}
+          Red
+        </pre> 
     </td>
 </tr>
 <tr>
