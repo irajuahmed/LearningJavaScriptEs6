@@ -7,3 +7,5 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 - It can hold any data type.
 - It shows data as it insertion order.
 - `Set` does not have index.
+- A `Set` has no keys.
+
