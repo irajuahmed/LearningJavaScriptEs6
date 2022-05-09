@@ -9,7 +9,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 - `Set` does not have index.
 - A `Set` has no keys.
 
-## Set Property:
+## Set Object Property:
 <table align="left" width="100%">
 <tr>
     <th>Property Name</th>
@@ -33,7 +33,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 </table>
 
 
-## Set Methods:
+## Set Object Methods:
 <table align="left" width="100%">
 <tr>
     <th>Method Name</th>
