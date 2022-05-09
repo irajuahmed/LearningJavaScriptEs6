@@ -9,6 +9,30 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 - `Set` does not have index.
 - A `Set` has no keys.
 
+## Set Property:
+<table align="left" width="100%">
+<tr>
+    <th>Property Name</th>
+    <th>Description</th>
+    <th>Example</th>
+</tr>
+    <tr>
+  <td>size</td>
+  <td>Returns the number elements in a Set(after removing duplicates)</td>
+  <td>
+       <pre lang="Javascript">
+           let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
+            colors.add('Violet');   
+            console.log(colors.size);
+        </pre>
+        <pre > Output in console
+         Set size: 5
+        </pre> 
+    </td>
+</tr>
+</table>
+
+
 ## Set Methods:
 <table align="left" width="100%">
 <tr>
@@ -136,8 +160,8 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 </tr>
   <tr>
       <td>keys()</td>
-      <td>Same as values()</td>
-      <td> A Set has no keys. keys() method returns the same as values().
+      <td> A Set has no keys. keys() method returns the same as values().</td>
+      <td>
         <pre lang="Javascript">
             let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
             var itr = colors.keys();   
