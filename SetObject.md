@@ -26,7 +26,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(colors.size);
         </pre>
         <pre > Output in console
-         Set size: 5
+         &#8594; Set size: 5
         </pre> 
     </td>
 </tr>
@@ -74,8 +74,8 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(colors);
         </pre>
         <pre> Output in console
-        Set(3) {'Violet', 'Indigo', 'Blue'}
-        Set(2) {'Indigo', 'Blue'}
+        &#8594; Set(3) {'Violet', 'Indigo', 'Blue'}
+        &#8594; Set(2) {'Indigo', 'Blue'}
         </pre>        
     </td>
 </tr>
@@ -94,9 +94,9 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
                 console.log(colors.has('Cyan')); 
         </pre>
         <pre> Output in console:
-        true
-        true
-        false
+        &#8594; true
+        &#8594; true
+        &#8594; false
         </pre>  
     </td>
 </tr>
@@ -114,7 +114,8 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(colors.size);
         </pre>
         <pre> Output in console:        
-        0
+        &#8594; &nbsp;
+        &#8594; 0
         </pre> 
     </td>
 </tr>
@@ -131,10 +132,10 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(text);
         </pre>
         <pre> Output in console:        
-        R
-        a
-        j
-        u
+        &#8594; R
+        &#8594; a
+        &#8594; j
+        &#8594; u
         </pre> 
      </td>
 </tr>
@@ -151,10 +152,10 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(val.next().value);   
         </pre>
         <pre> Output in console:
-        Green
-        Red
-        Orange
-        Yellow
+        &#8594; Green
+        &#8594; Red
+        &#8594; Orange
+        &#8594; Yellow
         </pre> 
     </td>
 </tr>
@@ -169,8 +170,8 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(itr.next().value);    
         </pre>
         <pre> Output in console:
-          {value: 'Green', done: false}
-          Red
+          &#8594; {value: 'Green', done: false}
+          &#8594; Red
         </pre> 
     </td>
 </tr>
@@ -187,10 +188,10 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
                 }
         </pre>
         <pre> Output in console:
-          (2) ['Green', 'Green']
-          (2) ['Red', 'Red']
-          (2) ['Orange', 'Orange']
-          (2) ['Violet', 'Violet']
+          &#8594; (2) ['Green', 'Green']
+          &#8594; (2) ['Red', 'Red']
+          &#8594; (2) ['Orange', 'Orange']
+          &#8594; (2) ['Violet', 'Violet']
         </pre> 
     </td>
 </tr>
