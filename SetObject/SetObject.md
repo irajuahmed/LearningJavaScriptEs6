@@ -49,7 +49,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             colors.delete('Violet');   
             console.log(colors);
         </pre>
-        <pre lang="Javascript"> Result in console
+        <pre lang="Javascript"> Output in console
         Set(3) {'Violet', 'Indigo', 'Blue'}
         Set(2) {'Indigo', 'Blue'}
         </pre>        
@@ -69,7 +69,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
                 console.log(colors.has('Violet'));  
                 console.log(colors.has('Cyan')); 
         </pre>
-        <pre lang="Javascript"> Result in console:
+        <pre lang="Javascript"> Output in console:
         true
         true
         false
@@ -89,7 +89,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             colors.clear();
             console.log(colors.size);
         </pre>
-        <pre lang="Javascript"> Result in console:        
+        <pre lang="Javascript"> Output in console:        
         0
         </pre> 
     </td>
@@ -106,7 +106,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             })
             console.log(text);
         </pre>
-        <pre lang="Javascript"> Result in console:        
+        <pre lang="Javascript"> Output in console:        
         R
         a
         j
@@ -116,11 +116,22 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 </tr>
   <tr>
       <td>values()</td>
-      <td>Returns an Iterator with all the values in a Set</td>
+      <td>Returns an Iterator with all the values in a Set. It returns a new iterator object that includes the values for each element in the Set object in the insertion order.</td>
       <td>
         <pre lang="Javascript">
-
+            let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
+            var val = colors.values();  
+            console.log(val.next().value);   
+            console.log(val.next().value);   
+            console.log(val.next().value);   
+            console.log(val.next().value);   
         </pre>
+        <pre lang="Javascript"> Output in console:        
+        Green
+        Red
+        Orange
+        Yellow
+        </pre> 
     </td>
 </tr>
   <tr>
