@@ -6,3 +6,4 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 - Value of `Set` must be unique means a value in the `Set` may only occur once. 
 - It can hold any data type.
 - It shows data as it insertion order.
+- `Set` does not have index.
