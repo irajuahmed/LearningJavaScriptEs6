@@ -140,10 +140,11 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
       <td> A Set has no keys. keys() method returns the same as values().
         <pre lang="Javascript">
             let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
-            var itr = colors.keys();  
-            console.log(itr.next().value);   
+            var itr = colors.keys();   
+            console.log(itr.next());   
+            console.log(itr.next().value);    
         </pre>
-          <pre lang="Javascript"> Output in console:
+        <pre lang="Javascript"> Output in console:
           {value: 'Green', done: false}
           Red
         </pre> 
@@ -151,10 +152,21 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
 </tr>
 <tr>
     <td>entries()</td>
-    <td>Returns an Iterator with the [value,value] pairs from a Set</td>
+    <td>Returns an Iterator with [value,value] pairs instead of [key,value] pairs.</td>
     <td>
         <pre lang="Javascript">
-
+                let colors = new Set(['Green', 'Red', 'Orange']);  
+                colors.add('Violet');   
+                var iterator = colors.entries();  
+                for (const entry of iterator) {
+                console.log(entry); 
+                }
         </pre>
+        <pre lang="Javascript"> Output in console:
+          (2) ['Green', 'Green']
+          (2) ['Red', 'Red']
+          (2) ['Orange', 'Orange']
+          (2) ['Violet', 'Violet']
+        </pre> 
     </td>
 </tr>
