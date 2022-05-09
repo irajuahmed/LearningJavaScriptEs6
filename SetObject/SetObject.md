@@ -41,8 +41,19 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
     <td>Removes an element from a Set</td>
     <td>
         <pre lang="Javascript">
-           
+            let colors = new Set();  
+            colors.add('Violet');  
+            colors.add('Indigo');  
+            colors.add('Violet');  
+            console.log(colors);
+            colors.delete('Violet');   
+            console.log(colors);
         </pre>
+        <pre>
+        Result: 
+        Set(3) {'Violet', 'Indigo', 'Blue'}
+        Set(2) {'Indigo', 'Blue'}
+        </pre>        
     </td>
 </tr>
 <tr>
