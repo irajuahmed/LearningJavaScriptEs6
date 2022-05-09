@@ -81,8 +81,18 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
     <td>CRemoves all elements from a Set</td>
     <td>
         <pre lang="Javascript">
-
+            let colors = new Set(['Green', 'Red', 'Orange', 'Yellow', 'Red']);  
+            colors.add('Violet');  
+            colors.add('Indigo');  
+            colors.add('Blue');  
+            colors.add('Violet');  
+            colors.clear();
+            console.log(colors.size);
         </pre>
+        <pre lang="Javascript"> Result in console:
+        
+        0
+        </pre> 
     </td>
 </tr>
   <tr>
