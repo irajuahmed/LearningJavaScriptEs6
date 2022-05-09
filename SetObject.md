@@ -73,7 +73,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             colors.delete('Violet');   
             console.log(colors);
         </pre>
-        <pre lang="Javascript"> Output in console
+        <pre> Output in console
         Set(3) {'Violet', 'Indigo', 'Blue'}
         Set(2) {'Indigo', 'Blue'}
         </pre>        
@@ -93,7 +93,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
                 console.log(colors.has('Violet'));  
                 console.log(colors.has('Cyan')); 
         </pre>
-        <pre lang="Javascript"> Output in console:
+        <pre> Output in console:
         true
         true
         false
@@ -113,7 +113,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             colors.clear();
             console.log(colors.size);
         </pre>
-        <pre lang="Javascript"> Output in console:        
+        <pre> Output in console:        
         0
         </pre> 
     </td>
@@ -130,7 +130,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             })
             console.log(text);
         </pre>
-        <pre lang="Javascript"> Output in console:        
+        <pre> Output in console:        
         R
         a
         j
@@ -150,7 +150,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(val.next().value);   
             console.log(val.next().value);   
         </pre>
-        <pre lang="Javascript"> Output in console:        
+        <pre> Output in console:
         Green
         Red
         Orange
@@ -168,7 +168,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
             console.log(itr.next());   
             console.log(itr.next().value);    
         </pre>
-        <pre lang="Javascript"> Output in console:
+        <pre> Output in console:
           {value: 'Green', done: false}
           Red
         </pre> 
@@ -186,7 +186,7 @@ In JavaScript `Set` is a collection of unique values. `Set` can hold any value o
                 console.log(entry); 
                 }
         </pre>
-        <pre lang="Javascript"> Output in console:
+        <pre> Output in console:
           (2) ['Green', 'Green']
           (2) ['Red', 'Red']
           (2) ['Orange', 'Orange']
