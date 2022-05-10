@@ -1,10 +1,9 @@
 <!--ⓇⒶⒿⓊ-->
 
-<!-- https://unicode-table.com/en/sets/ -->
-<!--https://www.javascripttutorial.net/es6/ -->
-<h1 align="center">Set Object</h1>
+<h1 align="center">JavaScript Class</h1>
+A JavaScript  is a blueprint for creating objects. A class encapsulates data and functions that manipulate data. A class declaration is syntactic sugar over prototypal inheritance with additional enhancements.
 
-In JavaScript `Set` is a collection of unique values. `Set` can hold any value of any data type & the elements in `sets` are iterated in their insertion order. `Set` is the collection of values similar to arrays, but it does not contain any duplicates.
+##### <b><i>Note:<i/></b> `Classes were introduced in EcmaScript 2015 (ES6) to provide a cleaner way to follow object-oriented programming patterns.`
 
 ## ☞ Characteristics:
 - Value of `Set` must be unique means a value in the `Set` may only occur once. 
